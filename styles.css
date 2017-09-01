@@ -9,8 +9,8 @@
 	display:inline-block;
 	text-align: center;
 	width: 25%;
+	top: 15px;
 	position: relative;
-	top: 10px;
 	color: #ddd;
 	float: left;
 }
@@ -18,7 +18,6 @@
 .section div{
 	color: white;
 	font-size:bold;
-	display: inline;
 }
 
 .form-container{
