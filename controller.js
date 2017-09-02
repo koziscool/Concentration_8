@@ -10,6 +10,11 @@ matcherController = {
 		this.view.init();
 		this.view.updateGameView();
 	},
+
+	selectCard: function( id ) {
+		
+	},
+
 };
 
 

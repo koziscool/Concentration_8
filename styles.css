@@ -18,11 +18,17 @@
 .section div{
 	color: white;
 	font-size:bold;
+	display: inline;
 }
 
 .form-container{
 	margin: 0 auto;
-	width: 80%;
 	text-align: center;
 }
+
+.grid-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
 
