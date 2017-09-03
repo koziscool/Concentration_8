@@ -8,6 +8,7 @@ matcherModel = {
 	gameStateText: "You haven't won yet, keep going.",
 	cardValues: [ "A", "B", "C", "D", "E", "F", "G", "H" ],
 	cards: [],
+	currentId: 1,
 
 	init: function( size ) {
 		this.size = size || this.size;

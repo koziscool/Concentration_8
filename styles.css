@@ -31,4 +31,27 @@
 	margin: 0 auto;
 }
 
+.card{
+	height: 50px;
+	display: inline-block;
+	background-color: lightyellow;
+	border: 1px solid black;
+	margin: 1%;
+	box-sizing: border-box;
+	text-align: center;
+	transition: all 0.5s;
+	transform: rotateY(180deg);
+}
+
+.name{
+	font-size:large;
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	transform: translateY(60%) rotateY(180deg);
+}
+
+
+
+
+
 
