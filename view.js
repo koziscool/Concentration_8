@@ -31,7 +31,18 @@ matcherView = {
 		$('#matched-cards').text( this.model.matchedCards );	
 	},
 
+	setCorrect: function( id ) {
+		$('#card-'+ id).addClass('correct');
+		$('#card-'+ id).off('click');
+	},
 
+	revealCard: function( id ) {
+		$('#card-'+ id).addClass('revealed');
+	},
+
+	hideCards: function(  ) {
+		$('.card').not('.correct').removeClass('revealed');
+	},
 };
 
 
